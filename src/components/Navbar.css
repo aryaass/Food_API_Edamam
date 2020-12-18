@@ -56,6 +56,7 @@
 
 .fa-bars {
   color: #fff;
+  margin-top: 5px;
 }
 
 .nav-links-mobile {
@@ -122,6 +123,7 @@
   .fa-times {
     color: #fff;
     font-size: 2rem;
+    margin-top: 5px;
   }
 
   .nav-links-mobile {
