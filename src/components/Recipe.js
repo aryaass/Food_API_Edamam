@@ -24,10 +24,10 @@ const Recipe = ({ recipe }) => {
       <a href={url} target="_blank" rel="noopener noreferrer">
         Link Website 
       </a>
-      <pre><p className="calories">Kalori&emsp;&emsp;&emsp;&emsp;: {kalori} Kal</p></pre>
-      <pre><p className="calories">Protein&emsp;&emsp;&emsp;&nbsp;: {Protein} g</p></pre>
-      <pre><p className="calories">Lemak&emsp;&emsp;&emsp;&ensp;: {Fat} g</p></pre>
-      <pre><p className="calories">Karbohidrat&emsp;: {Karbo} g</p></pre>
+      <pre><p className="calories">Kalori: {kalori} Kal</p></pre>
+      <pre><p className="calories">Protein: {Protein} g</p></pre>
+      <pre><p className="calories">Lemak: {Fat} g</p></pre>
+      <pre><p className="calories">Karbohidrat: {Karbo} g</p></pre>
       <button onClick={() => setShow(!show)}>Alat dan Bahan</button>
       {show && <RecipeDetails ingredients={ingredients} />}
     </div>
