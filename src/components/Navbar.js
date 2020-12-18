@@ -48,7 +48,6 @@ function Navbar() {
           >
             <Link
               className='nav-links'
-              onClick={closeMobileMenu}
             >
               Diet Label <i className='fas fa-caret-down' />
             </Link>
