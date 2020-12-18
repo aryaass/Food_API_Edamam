@@ -209,15 +209,4 @@ a:hover {
         margin-left: 22px;
     }
 }
-
-@media screen and (max-width: 1366px) {
-    .nyamping{
-        margin-left: auto;
-        margin-right: auto;
-        width: 70%;
-    }
-
-    .card {
-        margin-left: 110px;
-    }
 }
