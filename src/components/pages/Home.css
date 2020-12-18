@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
 
 * {
-  font-family: nexa;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -109,7 +108,7 @@ h4{
 }
 
 .search-form input[type="submit"] {
-  padding-top: 5px;
+  padding-top: 3px;
   width: 25%;
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.702);
@@ -233,4 +232,86 @@ button:active {
   font-size: 1.8rem;
   color: #000000;
   text-shadow: 0rem 0rem 1rem #aaa;
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    text-align: center;
+  }
+
+  .search-form {
+    width: 80%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #360033, #07535a);
+    box-shadow: 0rem 0rem 1rem #aaa;
+    border-radius: 1rem;
+    margin-bottom: 10rem;
+    position: relative;
+  }
+
+  .search-form input {
+    font-size: 1.6rem;
+    border: none;
+    border-bottom: 0.1rem solid #ccc;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    height: 3rem;
+  }
+  
+  .search-form input[type="text"] {
+    padding:  1.5rem;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+  }
+  
+  .search-form input[type="submit"] {
+    padding-top: 3px;
+    height: 52%;
+    width: 25%;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.702);
+    color: rgb(0, 0, 0);
+  }
+
+  input[type="submit"]:hover{
+    transition: transform .2s;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:active{
+    background-color: #ebffeb;
+    transform: translateY(4px);
+  }
+
+  .alert {
+    position: absolute;
+    top: -3rem;
+    left: 0;
+    background-color: #e94848;
+    width: calc(100% - 0.4rem);
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    margin-top: 100px;
+  }
+  
+  .alert h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  html {
+    font-size: 62.5%;
+    /* background-image: url("https://s2.best-wallpaper.net/wallpaper/3840x2160/1702/Seasoning-spices-pepper-spoon-nuts-leaves_3840x2160.jpg"); */
+    background-position: 18%;
+    background:    linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    background-size: 100% 100%;
+  }
 }
