@@ -8,7 +8,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: nexa;
 }
 
 .nyamping {
@@ -173,4 +172,52 @@ a:hover {
 
 .social-links img {
     width: 45px;
+}
+
+@media screen and (max-width: 768px) {
+    .nyamping{
+        margin-left: auto;
+        margin-right: auto;
+        width: 89%;
+    }
+
+    .card {
+        margin-left: 210px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .nyamping{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .card {
+        margin-left: 22px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .nyamping{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .card {
+        margin-left: 22px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .nyamping{
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+
+    .card {
+        margin-left: 110px;
+    }
 }
